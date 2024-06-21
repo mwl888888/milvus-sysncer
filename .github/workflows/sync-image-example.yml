@@ -12,7 +12,7 @@ on:
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
-# 工作流程任务（通常含有一个或多个步骤）
+# 工作流程任务（通常含有一个或多个步骤）docker-compose
 jobs:
   syncimages:
     runs-on: ubuntu-latest
