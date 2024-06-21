@@ -37,4 +37,4 @@ jobs:
         skopeo copy docker://quay.io/coreos/etcd:v3.5.5 docker://registry.cn-hangzhou.aliyuncs.com/lvdun-images/etcd:v3.5.5
         skopeo copy docker://docker.io/minio/minio:RELEASE.2023-03-20T20-16-18Z docker://registry.cn-hangzhou.aliyuncs.com/lvdun-images/minio:RELEASE.2023-03-20T20-16-18Z
         skopeo copy docker://docker.io/milvusdb/milvus:v2.4.5 docker://registry.cn-hangzhou.aliyuncs.com/lvdun-images/milvus:v2.4.5
-        skopeo copy docker://docker.io/zilliz/attu:latest docker://registry.cn-hangzhou.aliyuncs.com/lvdun-images/attu:latest
+        skopeo copy docker://docker.io/zilliz/attu:v2.2.8 docker://registry.cn-hangzhou.aliyuncs.com/lvdun-images/attu:v2.2.8
