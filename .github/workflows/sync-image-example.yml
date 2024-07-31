@@ -40,4 +40,4 @@ jobs:
         # skopeo copy docker://docker.io/zilliz/attu:v2.3.10 docker://registry.cn-hangzhou.aliyuncs.com/lvdun-images/attu:v2.3.10
         # skopeo copy docker://docker.io/milvusdb/milvus:v2.4.5-gpu docker://registry.cn-hangzhou.aliyuncs.com/lvdun-images/milvus:v2.4.5-gpu
         # skopeo copy docker://docker.io/rabbitmq docker://registry.cn-hangzhou.aliyuncs.com/lvdun-images/rabbitmq
-        skopeo copy docker://docker.io/zipkin docker://registry.cn-hangzhou.aliyuncs.com/lvdun-images/zipkin
+        skopeo copy docker://docker.io/openzipkin/zipkin docker://registry.cn-hangzhou.aliyuncs.com/lvdun-images/zipkin
