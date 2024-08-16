@@ -41,4 +41,5 @@ jobs:
         # skopeo copy docker://docker.io/milvusdb/milvus:v2.4.5-gpu docker://registry.cn-hangzhou.aliyuncs.com/lvdun-images/milvus:v2.4.5-gpu
         # skopeo copy docker://docker.io/rabbitmq docker://registry.cn-hangzhou.aliyuncs.com/lvdun-images/rabbitmq
         # skopeo copy docker://docker.io/python:3.10-slim docker://registry.cn-hangzhou.aliyuncs.com/lvdun-images/python:3.10-slim
-        skopeo copy docker://docker.io/milvusdb/milvus:v2.4.8 docker://registry.cn-hangzhou.aliyuncs.com/lvdun-images/milvus:v2.4.8
+        # skopeo copy docker://docker.io/milvusdb/milvus:v2.4.8 docker://registry.cn-hangzhou.aliyuncs.com/lvdun-images/milvus:v2.4.8
+        skopeo copy docker://docker.io/python:3.10 docker://registry.cn-hangzhou.aliyuncs.com/lvdun-images/python:3.10
