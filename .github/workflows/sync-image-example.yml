@@ -44,4 +44,4 @@ jobs:
         # skopeo copy docker://docker.io/milvusdb/milvus:v2.4.8 docker://registry.cn-hangzhou.aliyuncs.com/lvdun-images/milvus:v2.4.8
         # skopeo copy docker://docker.io/python:3.10 docker://registry.cn-hangzhou.aliyuncs.com/lvdun-images/python:3.10
         # skopeo copy docker://docker.io/willfarrell/autoheal docker://registry.cn-hangzhou.aliyuncs.com/lvdun-images/autoheal
-        skopeo copy docker://docker.io/elasticsearch:8.15.1 docker://registry.cn-hangzhou.aliyuncs.com/lvdun-images/elasticsearch:8.15.1
+        skopeo copy docker://docker.io/elasticsearch:8.15.0 docker://registry.cn-hangzhou.aliyuncs.com/lvdun-images/elasticsearch:8.15.0
