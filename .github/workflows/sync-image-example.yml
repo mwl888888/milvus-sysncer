@@ -43,9 +43,10 @@ jobs:
         # skopeo copy docker://docker.io/python:3.10-slim docker://registry.cn-hangzhou.aliyuncs.com/lvdun-images/python:3.10-slim
         # skopeo copy docker://docker.io/milvusdb/milvus:v2.4.8 docker://registry.cn-hangzhou.aliyuncs.com/lvdun-images/milvus:v2.4.8
         # skopeo copy docker://docker.io/python:3.10 docker://registry.cn-hangzhou.aliyuncs.com/lvdun-images/python:3.10
+        skopeo copy docker://docker.io/python:3.13 docker://registry.cn-hangzhou.aliyuncs.com/lvdun-images/python:3.13
         # skopeo copy docker://docker.io/willfarrell/autoheal docker://registry.cn-hangzhou.aliyuncs.com/lvdun-images/autoheal
         # skopeo copy docker://docker.io/elasticsearch:8.15.0 docker://registry.cn-hangzhou.aliyuncs.com/lvdun-images/elasticsearch:8.15.0
         # skopeo copy docker://docker.io/kibana:8.15.0 docker://registry.cn-hangzhou.aliyuncs.com/lvdun-images/kibana:8.15.0
         # skopeo copy docker://docker.io/clash-lan/clash:latest docker://registry.cn-hangzhou.aliyuncs.com/lvdun-images/clash-lan/clash:latest
         # skopeo copy docker://docker.io/searxng/searxng docker://registry.cn-hangzhou.aliyuncs.com/lvdun-images/searxng/searxng
-        skopeo copy docker://docker.io/portainer/portainer-ce:alpine docker://registry.cn-hangzhou.aliyuncs.com/lvdun-images/portainer/portainer-ce:alpine
+        # skopeo copy docker://docker.io/portainer/portainer-ce:alpine docker://registry.cn-hangzhou.aliyuncs.com/lvdun-images/portainer/portainer-ce:alpine
